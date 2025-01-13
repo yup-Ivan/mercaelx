@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distritos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/mercaelx.css">
+</head>
+<body>
+    <!-- DJANGO:
+    Generará de forma áutomatica: 
+        - Titulo h1, Título h2, lista de distritos
+    Elementos reutilizables:
+        - Contenedor completo, pudiendo así que pueda funcionar
+        para cualquier _list.
+    Acciones/elementos visisbles por usuarios registrados:
+        - Crear una distrito.
+    -->
+    <header>
+        <div id="navbar-container"></div>
+    </header>    
+    <main>
+        
+        <div class="container" id="gestorcomercios">
+            <h1 class="text-center mb-4">Distritos</h1>
+    
+            <div class="mb-5">
+                <h2 class="mb-3">Lista de Distritos</h2>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>Arganzuela</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>Gràcia</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>Triana</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer"></footer>
+    
+    <script src="JS/loadFooter.js"></script>
+    <script src="JS/loadNav.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

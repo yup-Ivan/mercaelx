@@ -1,0 +1,22 @@
+1. landing.html                 OK
+2. contacto.html                OK
+3. buscador.html                OK
+4. login.html                   OK
+5. comercio_list.html           publica: OK
+                                privada: OK   
+6. asociacion_list.html         publica: OK
+                                privada: OK          
+7. comercio_detail.html         OK
+8. private_landing.html         OK
+9. provincia_list.html          publica: OK 
+                                privada: OK         
+10. ciudad_list.html            publica: OK 
+                                privada: OK            
+11. distrito_list.html          publica: OK 
+                                privada: OK             
+12. categoria_list.html         publica: OK 
+                                privada: OK           
+13. subcategoria_list.html      publica: OK 
+                                privada: OK         
+14. form.html                   OK
+15. confirm_delete.html         OK

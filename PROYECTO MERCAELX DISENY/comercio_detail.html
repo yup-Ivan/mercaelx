@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Comercio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/mercaelx.css">
+</head>
+<body>
+    <!-- DJANGO:
+    Generará de forma áutomatica: 
+        - Información comercio, Imágen comercio, contacto comercio, localización comercio...
+    Elementos reutilizables:
+        - Para cualquier otro objeto detail.
+    Acciones/elementos visisbles por usuarios registrados:
+        - Modificar el comercio.
+    -->
+    <header>
+        <div id="navbar-container"></div>
+    </header>    
+    <main>
+        <div class="container my-5">
+            <header class="text-center mb-5">
+                <h1 class="display-4">La Tagliatella</h1>
+                <p class="text-muted">Restauración | Alicante</p>
+            </header>
+    
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: rgb(0, 62, 69);">
+                            <h2 class="card-title mb-0">Información del Comercio</h2>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><strong>Nombre:</strong> La Tagliatella</li>
+                                <li class="list-group-item"><strong>Código Postal:</strong> 03015</li>
+                                <li class="list-group-item"><strong>Dirección:</strong> Av. de Antonio Ramos Carratalá</li>
+                                <li class="list-group-item"><strong>Localidad:</strong> Alicante</li>
+                                <li class="list-group-item"><strong>Tipo:</strong> 001 - Restauración</li>
+                                <li class="list-group-item"><strong>Categoría:</strong> 001.001. Restaurantes</li>
+                                <li class="list-group-item"><strong>Asociación:</strong> ALC. Asociación de Comerciantes del Centro de Alicante</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: rgb(0, 98, 105);">
+                            <h2 class="card-title mb-0">Imagen del Comercio</h2>
+                        </div>
+                        <div class="card-body text-center">
+                            <img src="IMAGES/tagliatella2.webp" alt="Imagen del Comercio" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row g-4 mt-4">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: rgb(221, 166, 58);">
+                            <h2 class="card-title mb-0">Contacto</h2>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Email:</strong> contacto@latagliatella.es</p>
+                            <p><strong>Teléfono:</strong> 965434187</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-header text-white" style="background-color: rgb(194, 0, 36);">
+                            <h2 class="card-title mb-0">Ubicación</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.133933054406!2d-0.46566700000000005!3d38.369023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6237f4f9ac94b7%3A0x7426ca8945163cd4!2sRestaurante%20La%20Tagliatella%20%7C%20Vistahermosa%2C%20Alicante!5e0!3m2!1ses!2ses!4v1733847776783!5m2!1ses!2ses" 
+                                    width="100%" 
+                                    height="300" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer"></footer>
+    
+    <script src="JS/loadFooter.js"></script>
+    <script src="JS/loadNav.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
